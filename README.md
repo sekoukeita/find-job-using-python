@@ -2,7 +2,7 @@
 Use a python script to automatically scrape the web to find jobs you want, download them and send you sms for details when your are away from your computer.
 I am a beginner and your suggestion and help to improve this program would be really aprreciated.
 
-## How the program works?
+## How the program works
 1. Open *jobSpecifications.xlsx* file and set job's specifications (*in red*).
 2. Launch the program. Once it is launched, the program:
 3. Opens the browser and go at [monster.com advanced jobs search page](https://www.monster.com/jobs/advanced-search?intcid=skr_navigation_www_advanced-search)
