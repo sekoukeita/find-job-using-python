@@ -1,2 +1,51 @@
-# find-job-using-python
-Use a python script to automatically scrape the web and find the job you need. 
+# Find-job-using-python
+Use a python script to automatically scrape the web to find jobs you want, download them and send you sms for details when your are away from your computer.
+I am a beginner and your suggestion and help to improve this program would be really aprreciated.
+
+## How the program works?
+1. Open *jobSpecifications.xlsx* file and set job's specifications (*in red*).
+2. Launch the program. Once it is launched, the program:
+3. Opens the browser and go at [monster.com advanced jobs search page](https://www.monster.com/jobs/advanced-search?intcid=skr_navigation_www_advanced-search)
+4. Automatically fills out job's specifications information read from the xlsx file.
+5. Download descriptions of jobs that match the criteria and save them into a new folder on you computer.
+6. Send up to 2 sms to you (in case you are away from your computer):
+    * A first sms making the summary of findings or a sorry message if nothing is found.
+    * A second sms with links to up to 5 jobs to allow you to check them through your smartphone. 
+
+## Getting started
+The script could be run in 2 different environments (windows environments):
+
+### Python environment
+To be run in python environment, your computer should have the folling programs and modules installed:
+1. Download and install [python3](https://www.python.org/downloads/) which should install also **pip**, python packages manager.
+2. Install the third party modules **selenium**, **twilio**, **requests**, **openpyxl**, **pyautogui**  using the following syntax in the command prompt:
+```
+    pip install selenium
+````
+3. Download drivers for the browser you want to use and place them in your python working directory:
+    * [geckodriver](https://github.com/mozilla/geckodriver) for Firefox.
+    * [chromedriver](https://chromedriver.chromium.org/downloads) for Chrome.
+4. Place the *jobSpecifications.xlsx* file from which the script read jobs' information into your python working directory.
+5. Launch the script (*myJobFinder.py*)
+
+### Non-Python environment
+You can still run this program even if you don't have python installed on your computer. In this case, you will need to create the executable file in python environment and  then run the *myJobFinder.exe* in a non-python environment. You can follow these steps:
+1. Install the package *pyinstaller* using the command prompt:
+```
+    pip install pyinstaller
+```
+2. Set the current directory to your working directory where the script and the xlsx file are:
+```
+    C:\Users\yourComputerUserName>cd yourCurrentWorkingDirectoryPath
+```
+3. Run pyinstaller on the script:
+```
+    pyinstaller myJobFinder.py
+```
+4. *pyinstall* will create a folder called *dist* that contains the folder *myJobFinder*.
+5. Add the xlsx file *jobSpecifications.xlsx* to *myJobFinder* folder.
+6. Zip the folder and redistribute it where you want to run the program.
+7. Unzip the folder, open it and launch the *myJobFinder.exe* to run the program.
+
+## Author
+    Sekou Keita
