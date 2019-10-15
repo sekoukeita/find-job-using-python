@@ -47,5 +47,11 @@ You can still run this program even if you don't have python installed on your c
 6. Zip the folder and redistribute it where you want to run the program.
 7. Unzip the folder, open it and launch the *myJobFinder.exe* to run the program.
 
+## Bonus
+* You can also use [*Window Task Schedule*](https://www.windowscentral.com/how-create-automated-task-using-task-scheduler-windows-10) to lunch the script at a certain moment,for example every morning at 10 am.
+If your are no around your compteur, you can set it to turn on for example at 9.50 am and turn off at 10.10 am after it has finished running the programme and send you the information through sms. [Here is a link that may help](https://lifehacker.com/how-can-i-start-and-shut-down-my-computer-automatically-5831504).
+* A good idea could also be to set the folder where jobs will be downloaded on your computer to your file hosting service (like Dropbox) folder. That way, you can check all jobs found through your smartphone by going to your Dropbox app.
+
+
 ## Author
     Sekou Keita
