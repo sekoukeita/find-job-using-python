@@ -49,7 +49,7 @@ You can still run this program even if you don't have python installed on your c
 
 ## Bonus
 * You can also use [*Window Task Schedule*](https://www.windowscentral.com/how-create-automated-task-using-task-scheduler-windows-10) to lunch the script at a certain moment,for example every morning at 10 am.
-If your are no around your compteur, you can set it to turn on for example at 9.50 am and turn off at 10.10 am after it has finished running the programme and send you the information through sms. [How Can I Start and Shut Down My Computer Automatically on a Schedule?](https://lifehacker.com/how-can-i-start-and-shut-down-my-computer-automatically-5831504)
+If your are no around your compteur, you can set it to turn on for example at 9.50 am and turn off at 10.10 am after it has finished running the programme and send you the information through sms. [How to Schedule Windows 10 Shutdown and Startup?](https://www.maketecheasier.com/schedule-windows10-shut-down-start-up)
 * A good idea could also be to set the folder where jobs will be downloaded on your computer to your file hosting service (like Dropbox) folder. That way, you can check all jobs found through your smartphone by going to your Dropbox app.
 
 ## Author
